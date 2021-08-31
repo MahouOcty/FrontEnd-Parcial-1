@@ -4,7 +4,7 @@ El siguiente proyecto fue realizado por Juan Pablo Alzate (Código: 52920) y Joh
 
 ![plot](./assets/Maquetado-1.jpg)
 
-![plot](./assets/Maquetado-1.png)
+![plot](./assets/Maquetado-2.png)
 
 Planteamos un contenedor con cada elemento por separado, destacando principalmente, el cover art en la parte superior, la información del álbum en el centro a la izquierda, alineado con el botón de play, la barra de avance con sus respectivos tiempos, y tres botones ubicados en la parte inferior, los cuales se colocaron como una misma clase debido a las similitudes de sus propiedades. El diseño se mantuvo relativamente parecido en su versión de iPhone X, simplemente ajustando el tamaño de los objetos para pantallas más pequeñas y retirando la imagen de fondo a un fondo simple y plano ya que no se podría apreciar los detalles del mismo.
 
