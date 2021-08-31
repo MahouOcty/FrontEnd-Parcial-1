@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #b7ceba;
+}
+
+#fondo {
+  position: absolute;
+  display: flex;
+  background-image: url("/assets/bg.png") no-repeat center center fixed;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+  border: solid;
+  border-color: #6303e000;
+}
+#fondo #bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+#fondo #bg img {
+  width: 100%;
+  height: 100%;
+}
+#fondo #principal {
+  width: 500px;
+  height: 500px;
+  margin-left: 35%;
+  margin-top: 45px;
+  position: absolute;
+}
+#fondo #principal #img-principal img {
+  opacity: 0.8;
+  width: 400px;
+  height: 400px;
+}
+#fondo #principal #secundario {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 290px;
+  margin-top: -5px;
+  background-color: black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#fondo #principal #name-disc {
+  color: gray;
+  width: 180px;
+  height: 50px;
+  padding: 10px;
+  font-family: sans-serif;
+}
+#fondo #principal #name-disc h5 {
+  color: white;
+  font-size: 30px;
+}
+#fondo #principal #play {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 40px;
+  margin-left: 120px;
+}
+#fondo #principal #play h1 {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#fondo #principal #play h1:hover {
+  color: gray;
+}
+#fondo #principal #cont1 {
+  color: white;
+  width: 180px;
+  height: 20px;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#fondo #principal #cont2 {
+  display: flex;
+  color: white;
+  justify-content: center;
+  width: 100px;
+  height: 20px;
+  margin-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#fondo #principal #barra {
+  padding-left: 100px;
+  background-color: gray;
+  width: 60%;
+  height: 3px;
+  margin-left: 20px;
+}
+#fondo #principal .btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 127px;
+  cursor: pointer;
+  color: gray;
+}
+#fondo #principal .btns:hover {
+  color: white;
+}
+#fondo #principal .btns h1 {
+  font-size: 55px;
+}
+#fondo #principal .btns h2 {
+  font-size: 30px;
+}
+
+#mobile-control {
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  height: 75%;
+  width: 100%;
+}
+#mobile-control #cover-mb {
+  position: absolute;
+  width: 100%;
+  opacity: 0.75;
+  height: auto;
+  top: 0px;
+}
+#mobile-control #cover-mb img {
+  width: 100%;
+  height: 100%;
+}
+#mobile-control #content-mb {
+  position: absolute;
+  display: flex;
+  background: black;
+  background: linear-gradient(0deg, black 0%, black 40%, rgba(0, 0, 0, 0.1794467787) 100%);
+  bottom: 0px;
+  height: 100%;
+  width: 100%;
+}
+#mobile-control #content-mb #info-mb {
+  left: 5px;
+  position: absolute;
+  color: gray;
+  width: 180px;
+  height: 50px;
+  padding: 10px;
+  top: 50%;
+  font-family: sans-serif;
+}
+#mobile-control #content-mb #info-mb h5 {
+  color: white;
+  font-size: 30px;
+}
+#mobile-control #content-mb #play-mb {
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 40px;
+  right: 20px;
+}
+#mobile-control #content-mb #play-mb h1 {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#mobile-control #content-mb #play-mb h1:hover {
+  color: gray;
+}
+#mobile-control #content-mb #btns-mb {
+  position: absolute;
+  bottom: 15px;
+  height: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#mobile-control #content-mb #btns-mb .btn {
+  display: flex;
+  width: 124px;
+  height: 100%;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+}
+#mobile-control #content-mb #btns-mb .btn h1 {
+  font-size: 35px;
+}
+#mobile-control #content-mb #btns-mb .btn h2 {
+  font-size: 20px;
+}
+#mobile-control #content-mb #time-1 {
+  position: absolute;
+  bottom: 23%;
+  left: 7.5%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#mobile-control #content-mb #time-2 {
+  position: absolute;
+  bottom: 23%;
+  right: 7.5%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#mobile-control #content-mb #bar-mb {
+  position: absolute;
+  bottom: 20%;
+  background-color: gray;
+  width: 85%;
+  height: 3px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+@media (max-width: 376px) {
+  #fondo {
+    display: none;
+  }
+
+  #mobile-control {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
