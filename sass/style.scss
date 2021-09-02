@@ -4,6 +4,7 @@
 }
 body {
     background-color: #b7ceba;
+    display: flex;
 }
 
 #audio {
@@ -26,10 +27,11 @@ body {
         }
     }
     #principal{
-        width: 500px;
-        height: 500px;
-        margin-left: 35%;
-        margin-top: 45px; 
+        width: 400px;
+        height: 400px;
+        left: 50%;
+        top: 32%;
+        transform: translate(-50%, -50%);
         position: absolute;
         #img-principal{
 
@@ -45,7 +47,7 @@ body {
         #secundario{
             display: flex;
             flex-wrap:wrap;
-            
+            position: absolute;
             width: 400px; 
             height: 290px;
             margin-top: -5px;
@@ -134,7 +136,7 @@ body {
                 font-size: 55px;
             }
             h2 {
-                font-size: 30px;
+                font-size: 25px;
             }
         }
 
